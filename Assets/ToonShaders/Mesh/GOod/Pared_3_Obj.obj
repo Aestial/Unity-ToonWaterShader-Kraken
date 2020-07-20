@@ -1,0 +1,32 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 02.07.2020 11:41:07
+
+mtllib Pared_3_Obj.mtl
+
+#
+# object pared3_low
+#
+
+v  0.1702 401.2859 -117.4723
+v  0.1702 1.8248 -117.4723
+v  0.1701 401.2859 118.0265
+v  0.1702 1.8248 118.0265
+# 4 vertices
+
+vn -1.0000 -0.0000 -0.0000
+# 1 vertex normals
+
+vt 0.5909 0.7207 0.0000
+vt 0.5909 0.0034 0.0000
+vt 0.9840 0.7207 0.0000
+vt 0.9840 0.0034 0.0000
+# 4 texture coords
+
+o pared3_low
+g pared3_low
+usemtl wire_086225142
+s off
+f 1/1/1 2/2/1 3/3/1 
+f 3/3/1 2/2/1 4/4/1 
+# 2 faces
+
